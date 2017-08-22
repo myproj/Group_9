@@ -12,6 +12,10 @@ int check(int n)
 	return n;
 }
 int factorial(int n){
+	if(n<0){
+		printf("Enter positive number to find factorial\n");
+		return 0;
+	}
 	n = check(n);
     if(n!=1){
 	return(n * factorial(n-1));
