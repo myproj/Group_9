@@ -2,7 +2,7 @@
 
 int factorial(int n){
 	if(n<0){
-		printf("Enter positive number\n");
+		printf("Enter positive number to find factorial\n");
 		return 0;
 	}
     if(n!=1){
