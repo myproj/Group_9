@@ -6,7 +6,7 @@ int check(int n)
 	while(n < 1)
 	{
 
-		printf("Give a number greater than 0\n");
+		cout<<"Give a number greater than 0"<<endl;
 		std::cin >> n;
 	}
 	return n;
