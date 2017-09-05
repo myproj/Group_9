@@ -1,4 +1,4 @@
- 
+/*bugfixed*/
 #include "functions.h"
 #include "cstdlib"
 
@@ -11,4 +11,3 @@ int factorial(int n){
     if (n < 0)
     	return -1;
 	}
-
