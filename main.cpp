@@ -5,6 +5,6 @@ using namespace std;
 int main(){
     print_hello();
     cout<< endl;
-    cout<<"The factorial is "<< factorial(-2)<< endl;
+    printf("The factorial is %d", factorial(-2));
     return 0;
 }
